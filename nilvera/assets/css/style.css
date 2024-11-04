@@ -1,0 +1,208 @@
+body {
+    font-family: "-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"";
+    background-color: #F5F5F5!important;
+  }
+  
+  #app {
+    
+    margin: 50px 20px;
+    padding: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  button {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  th{
+    color:rgba(0,0,0,.6);
+    font-size: .75rem;
+    font-weight: 700;
+  }
+  td{
+    border-bottom: thin solid rgba(0,0,0,.12)!important;
+    font-size: 11px;
+    font-weight: 700;
+    height: 48px;
+  }
+
+ 
+
+   
+ 
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 8px;
+    z-index: 1;
+}
+
+ 
+.dropdown-menu.show {
+    display: block;
+}
+  
+
+span{
+   font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   font-size: 12px;
+
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .175rem .75rem !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+
+.navbar-nav .nav-item .nav-link:focus {
+    text-decoration: underline;
+    background-color: yellow;
+}
+
+.nav-link {
+    font-size: 10px!important;
+    color: rgba(0,0,0,.54) !important;
+    border: none  !important;
+}
+
+.nav-link:focus{
+    border: none !important;
+    border-bottom: 2px solid #5867dd!important;
+}
+.nav-link.active {
+    border-bottom:2px solid #5867dd!important;
+    color:#5867dd !important
+}
+
+.modalInputs {
+  display: block;
+  width: 100%;
+  padding: .175rem .75rem !important;
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: none !important;;
+  border-bottom: 1px solid rgba(0,0,0,.87)!important;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  margin-left:0rem;
+  
+ 
+}
+.modalInputs :active{
+  border: none !important;
+  border-bottom: 2px solid #5867dd!important;
+}
+.modalInputs:focus {
+  border: none;
+  border-bottom: 2px solid #5867dd !important;
+  outline: none;  
+}
+.inputLabel{
+  font-size: 10px;
+  margin-top: 1.6em;
+}
+.modal {
+  --bs-modal-width:650px!important;
+}
+
+.page-link{
+  border-radius: 50%;
+  
+}
+
+.active>.page-link, .page-link.active {
+  z-index: 3;
+  color: var(--bs-pagination-active-color);
+  background-color: #5867dd!important;
+  border-color: #5867dd!important;
+}
+
+.page-prev{
+  position: relative;
+  display: block;
+  padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
+  color: var(--bs-pagination-color);
+  text-decoration: none;
+  background-color: var(--bs-pagination-bg);
+  
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  border: none!important;
+  font-size: 18px!important;
+  color: #757575!important;;
+}
+
+
+.pagination {
+  --bs-pagination-padding-x: 0.5rem!important;
+  --bs-pagination-padding-y: 0!important;
+  
+}
+
+.modalInputCustomer{
+
+  display: block;
+  width: 100%;
+  padding: .175rem .75rem !important;
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+ border-radius: 5px;
+  border: 1px solid rgba(0,0,0,.87)!important;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  margin-left:0rem;
+}
+
+.modalInputCustomer:active{
+  border:2px solid #5867dd!important;
+ 
+}
+
+.modalInputCustomer:focus {
+
+  border: 2px solid #5867dd !important;
+  outline: none;  
+}
+
+.inputLabelCustomer {
+  font-size: 10px;
+  margin-top: 1em;
+
+}
